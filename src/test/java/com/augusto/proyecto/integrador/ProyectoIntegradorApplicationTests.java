@@ -1,4 +1,4 @@
-package com.joseph.proyecto.integrador;
+package com.augusto.proyecto.integrador;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

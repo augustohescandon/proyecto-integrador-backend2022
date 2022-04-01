@@ -1,7 +1,7 @@
-package com.joseph.proyecto.integrador.controller;
+package com.augusto.proyecto.integrador.controller;
 
-import com.joseph.proyecto.integrador.dominio.Paciente;
-import com.joseph.proyecto.integrador.service.PacienteService;
+import com.augusto.proyecto.integrador.dominio.Paciente;
+import com.augusto.proyecto.integrador.service.PacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -32,7 +32,6 @@ public class PacienteController {
         model.addAttribute("apellido", paciente.getApellido());
 
         return "index";
-
-
     }
+
 }

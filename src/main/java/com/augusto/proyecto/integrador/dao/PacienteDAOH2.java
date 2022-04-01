@@ -1,13 +1,13 @@
-package com.joseph.proyecto.integrador.dao;
+package com.augusto.proyecto.integrador.dao;
 
-import com.joseph.proyecto.integrador.dominio.Domicilio;
-import com.joseph.proyecto.integrador.dominio.Paciente;
+import com.augusto.proyecto.integrador.dominio.Paciente;
+import com.augusto.proyecto.integrador.dominio.Domicilio;
 import org.springframework.stereotype.Component;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
+
 @Component //para que spring la tenga en cuenta como parte importante
 public class PacienteDAOH2 implements IDao<Paciente>{
 

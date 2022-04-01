@@ -1,9 +1,8 @@
-package com.joseph.proyecto.integrador.dao;
+package com.augusto.proyecto.integrador.dao;
 
-import com.joseph.proyecto.integrador.dominio.Domicilio;
+import com.augusto.proyecto.integrador.dominio.Domicilio;
 import org.springframework.stereotype.Component;
 
-import javax.xml.transform.Result;
 import java.sql.*;
 import java.util.List;
 @Component

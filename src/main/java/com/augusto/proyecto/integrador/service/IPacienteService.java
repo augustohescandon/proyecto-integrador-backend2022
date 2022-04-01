@@ -1,6 +1,6 @@
-package com.joseph.proyecto.integrador.service;
+package com.augusto.proyecto.integrador.service;
 
-import com.joseph.proyecto.integrador.dominio.Paciente;
+import com.augusto.proyecto.integrador.dominio.Paciente;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.joseph.proyecto.integrador.dominio;
+package com.augusto.proyecto.integrador.dominio;
 
 import java.time.LocalDate;
 

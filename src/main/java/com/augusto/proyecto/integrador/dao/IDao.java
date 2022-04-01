@@ -1,4 +1,4 @@
-package com.joseph.proyecto.integrador.dao;
+package com.augusto.proyecto.integrador.dao;
 
 import java.util.List;
 
