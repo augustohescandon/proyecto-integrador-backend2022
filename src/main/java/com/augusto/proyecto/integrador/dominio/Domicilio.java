@@ -7,6 +7,10 @@ public class Domicilio {
     private String localidad;
     private String provincia;
 
+    public Domicilio(){
+
+    }
+
     public Domicilio(int id, String calle, int numero, String localidad, String provincia) {
         this.id = id;
         this.calle = calle;
@@ -40,5 +44,9 @@ public class Domicilio {
 
     public String getProvincia() {
         return provincia;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
